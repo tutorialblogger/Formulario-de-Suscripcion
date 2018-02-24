@@ -1,0 +1,153 @@
+/*=====================================
+= Formulario subscribe Blogger CSS
+=====================================*/
+#subscribe {
+<!-- background: rgba(0, 153, 204 , 1); Eliminamos el color de fondo -->
+padding: 40px 10px;
+box-sizing: border-box;
+width: 100%;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+}
+
+#subscribe input {
+border: medium none;
+color: gray;
+font-family: helvetica;
+font-size: 16px;
+margin-bottom: 10px;
+padding: 15px 15px;
+width: 300px;
+border-radius: 3px;
+border:1px solid #DADADA;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+margin: 05px auto;
+ float:none;
+}
+
+#subscribe input.email { background: #f5f5f5}
+#subscribe input.name { background: #f5f5f5}
+#subscribe input[type="submit"] {
+background: #D35400!important;
+color: #fff;
+cursor: pointer;
+font-size: 16px;
+width: 600px;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+padding: 15px 0;
+
+}
+#subscribe input[type="submit"]:hover {background: #252525 !important;}
+
+@media only screen and (max-width: 768px) {
+
+#subscribe input.email {
+  width: 100%;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+
+#subscribe input.name {
+  width: 100%;
+   }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+#subscribe input[type="submit"] {
+  width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+#subscribe input.email {
+  width: 100%;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+
+#subscribe input.name {
+  width: 100%;
+   }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+#subscribe input[type="submit"] {
+  width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+#subscribe input.email {
+  width: 100%;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+
+#subscribe input.name {
+  width: 100%;
+   }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+#subscribe input[type="submit"] {
+  width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+#subscribe input.email {
+  width: 100%;
+   }
+}
+
+@media only screen and (max-width: 320px) {
+
+#subscribe input.name {
+  width: 100%;
+   }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+#subscribe input[type="submit"] {
+  width: 100%;
+  }
+}
+
+/*=====================================
+= Formulario subscribe Blogger HTML
+=====================================*/
+
+<div id="subscribe">
+		<div style="text-align:center;">
+				<form style="display:inline;" action="https://lb.benchmarkemail.com//code/lbform" method=post name="frmLB850981" accept-charset="UTF-8" onsubmit="return _checkSubmit850981(this);" >
+				  <input type=hidden name=successurl value="https://www.adaptacionesweb.com/p/estas-punto-de-suscribirte.html" />
+				  <input type=hidden name=errorurl value="https://lb.benchmarkemail.com//Code/Error" />
+				  <input type=hidden name=token value="mFcQnoBFKMS2FR%2BytgwE1OZXUawFafLCMfD4HgpzBz1HNHYysVoPng%3D%3D" />
+				  <input type=hidden name=doubleoptin value="" />
+				  <input type="email" size="20" value="Ingresa tu email" name="fldEmail" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value=&#39;&#39;;" onblur="if(this.value==&#39;&#39;)this.value=this.defaultValue;" />
+				  <input type="text" size="20" value="Ingresa tu nombre" name="fldfirstname" class="name" id="mce-FNAME" onfocus="if(this.value==this.defaultValue)this.value=&#39;&#39;;" onblur="if(this.value==&#39;&#39;)this.value=this.defaultValue;" />
+				    <div class="clear">
+				    <input type="submit" value="Suscribete Ahora" name="subscribe" id="btnSubmit" krydebug="1751" class="button" />
+				    </div>
+				</form> 
+		</div>
+</div>
+
